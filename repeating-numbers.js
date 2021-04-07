@@ -1,0 +1,13 @@
+const repeatNumbers = function(data) {
+  for (let i = 0; i < data.length; i++){
+    let num = ''
+    for (let j = 0; j = data[i][1]; j++){
+      num += data[i][0]
+    }
+    console.log(num)
+  }
+};
+
+console.log(repeatNumbers([[1, 10]]));
+console.log(repeatNumbers([[1, 2], [2, 3]]));
+console.log(repeatNumbers([[10, 4], [34, 6], [92, 2]]));
